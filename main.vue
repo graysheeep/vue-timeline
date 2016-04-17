@@ -2,6 +2,7 @@
 	<div class="vux-timeline">
 		<div class="start-point">
 			<div class="date">2016-04-15</div>
+			<div class="point"></div>
 			<!-- <div>456</div> -->
 		</div>
 		<div
@@ -24,6 +25,19 @@
 			position:relative;
 			-webkit-box-flex:1;
 			text-align:right;
+		}
+
+		.start-point {
+			position:relative;
+			.point {
+				width:15px;
+				height:15px;
+				border-radius:99px;
+				background-color:#009C23;
+				position:absolute;
+				right:0;top:50%;
+				transform:translateY(-50%);
+			}
 		}
 		
 		.blank-point {
