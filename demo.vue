@@ -38,14 +38,13 @@
 </style>
 
 <script>
-	import Timeline from '../timeline'
-	import TimelineItem from '../TimelineItem'
+import { Timeline, TimelineItem } from '../components/timeline'
 
-	export default {
-	  components: {
-	    Timeline,
-	    TimelineItem
-	  }
-	}
+export default {
+  components: {
+    Timeline,
+    TimelineItem
+  }
+}
 </script>
 
