@@ -3,6 +3,8 @@
 
 ## demo
 ``` html
+import { Timeline, TimelineItem } from './build'
+
 <timeline>
 	<timeline-item>
 		<h4 class="recent">【广东】 广州市 已发出</h4>
